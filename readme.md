@@ -1,5 +1,5 @@
 THE GAME OF LIFE by Manny - A True to Life Game for Two Players
-Based on the game by Hasbro, Inc
+Based on the game by Hasbro, Inc. Used without Permission
 
 You too can be a Millionaire in this game of Life. That’s the object of the game. It all
 centers around the Wheel of Fate. You start out on Life’s highway, just out of high
@@ -15,9 +15,8 @@ really big money. Your banker will have over $7,500,000 to start the game. You m
 become a Millionaire and retire in luxury, or wind up broke at the Poor Farm.
 
 TO START
-The Game AI is the Banker and will Banker separate Money, Insurance
-Policies and Stock Certificates. Unless stated otherwise, all money is COLLECTED and 
-PAID to the Banker. 
+The Game "AI" is the Banker and will separate Money, Insurance Policies and Stock 
+Certificates. Unless stated otherwise, all money is COLLECTED and PAID to the Banker. 
 The SHARE THE WEALTH cards are shuffled, one is dealt to each player, and the rest is 
 placed face down in a pile.
 
@@ -56,12 +55,12 @@ When you LAND IN a Pay Day Space by EXACT COUNT, you not only collect your salar
 DRAW a SHARE THE WEALTH card in that turn. There are three kinds. When you have one or more 
 of them, keep them face down so only you will know what they are. Use these cards when you 
 choose. Use them wisely!
-1. COLLECT CARD: This card may be given to any opponent when he lands in a white space and 
-COLLECTS $10,000 or more. Upon presentation of this card, the opponent must give you one half 
+1. COLLECT CARD: This card may be given to any opponent when he lands in a green space and 
+COLLECTS $100,000 or more. Upon presentation of this card, the opponent must give you one half 
 the amount he collects from the bank in that space. He then places this card at the bottom of 
 pile.
-2. PAY CARD: This card may be given to any opponent when you land in a white PAY space 
-demanding $5,000 or more. Opponent is thus forced to pay YOU half the amount you pay to the 
+2. PAY CARD: This card may be given to any opponent when you land in a green PAY space 
+demanding $20,000 or more. Opponent is thus forced to pay YOU half the amount you pay to the 
 bank in that turn. Card is then put at the bottom of the pile.
 3. EXEMPTION CARDS: This card entitles you to ignore either a Collect or Pay card when an 
 opponent gives you one. Show this card to opponent and return it, with his Share the Wealth 
@@ -88,7 +87,7 @@ For 1, 2, 3 – You get 1 child
 For 4, 5, 6 – You get 2 children
 For 7, 8, 9 – You get 3 children
 For 10 - You get 4 children.
-2. Each time you add a child you collect $500 from each opponent. If you add Twins, collect 
+2. Each time you add a child you collect $500 from each opponent. If you add more than 1 child, collect 
 $1,000 from each.
 
 MOVING BACK

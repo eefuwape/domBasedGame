@@ -11,6 +11,7 @@ class Player {
         this.stocks = 0
         this.car = 1
         this.children = 0
+        this.playerPosition = 0
     }
 }
 
@@ -35,3 +36,5 @@ class spaces {
         this.start
     }
 }
+
+let getPlayerName = document.querySelector("begin")
