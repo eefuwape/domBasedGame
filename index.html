@@ -11,18 +11,22 @@
     <body>
         <div id="begin">
             <h1 class="title">The Game of Life</h1>
+            <p>Enter Players Names</p>
             <form class="playerNames">
                 <label for="player1">Player 1:</label>
                 <input type="text" name="player1" id="player1"><br><br>
-                <label for="player2">Player 1:</label>
-                <input type="text" name="player2" id="player2">
+                <label for="player2">Player 2:</label>
+                <input type="text" name="player2" id="player2"><br><br>
                 <input type="submit" value="Submit">
-            </form>            
+            </form>
+            <button type="button">BEGIN</button>
         </div>
-        <div class="spinner" id="dice">
-            <img src="images/dice.png" alt="Spinner">
+        <div class="spinner">
+            <img id="dice" src="images/dice.png" alt="Spinner">
+            <p><span id="playerName"></span> rolled a <span id="draw"></span>.</p>
         </div>
         <div class="gameNotes" id="notifications">
+            <button type="button">QUIT GAME</button>
             <div id="player1">
                 <h3>Player Name</h3>
                 <ul>

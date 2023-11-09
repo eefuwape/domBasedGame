@@ -7,11 +7,11 @@ school, with a car and $2,000. As you travel you’ll meet with success, failure
 Your luck – your decisions – may give you more than one chance to make good. You
 may get revenge on the player who may be a sure winner. Fate plays a large part, but
 your decisions are also very important. For example, at the first fork in the road, you
-must decide whether to go into business or take the longer way through college with a
+must decide whether to go into career or take the longer way through college with a
 chance for a larger salary. You will come to other forks in the road. In each instance the
 longer way offers greater rewards, but also greater penalties. The choice is yours!
 Along the way, you’ll get married; maybe have a family. You’ll know what it is to have
-really big money. Your banker will have over $7,500,000 to start the game. You may
+really big money. Your banker will have over $7,500,000,000 to start the game. You may
 become a Millionaire and retire in luxury, or wind up broke at the Poor Farm.
 
 TO START

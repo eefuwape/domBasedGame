@@ -6,6 +6,11 @@ body {
     opacity: 0.6;
 }
 
+div#begin {
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
 div.gameNotes {
     background-color: #fed9ff;
     width: 600px;
