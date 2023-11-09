@@ -15,30 +15,49 @@ class Player {
     }
 }
 
-class Cards {
-    constructor () {
-        this.career = [["Police", "Mechanic", "Business Owner", "Plumber", "Construction Worker", 
-        "Truck Driver"],[ "Teacher", "Doctor", "Engineer", "Scientist", "Lawyer", "Pilot"]]
-        this.salary = [35000, 40000, 45000, 44000, 55000, 68000, 74000, 80000, 100000, 225000, 230000]
-        this.stock = 10
-        this.insurance = ["Auto Insurance", "Life Insurance", "Health Insurance"]
-    }
+const careerCards = {
+    police: 40000,
+    mechanic: 55000,
+    business: 45000,
+    plumber: 55000,
+    construction: 35000,
+    trucker: 80000,
+    teacher: 68000,
+    engineer: 80000,
+    scientist: 74000,
+    attorney: 100000,
+    doctor: 225000,
+    pilot: 230000
 }
 
-class spaces {
-    constructor() {
-        this.red = 3
-        this.orange = 
-        this.green
-        this.retire = [1, 130]
-        this.rich
-        this.poor
-        this.start
-    }
+const Banker = {
+    funds: 75000000000,
+    stocks: 10,
+    auto: 300,
+    home: 1100,
+    life: 600,
+    renter: 180,
+    health: [500, 100, 1500]
 }
+
+const spaces = {
+    red : 3,
+    yellow : 115,
+    green : 21,
+    blue : 9,
+    retire : 1,
+    bridge : 1,
+    lucky : 3,
+
+
+}
+
 
 let divEL1 = document.querySelector("begin")
 let divEL2 = document.querySelector("spinner")
 let divEl3 = document.querySelector("gameNotes")
+
+
+const player1 = new Player()
 
 

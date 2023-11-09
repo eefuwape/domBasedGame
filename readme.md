@@ -111,13 +111,12 @@ on. You cannot take Revenge on a player in Millionaire Acres.
 
 BETTING ON THE WHEEL
 Here’s your chance to place side bets. The numbers and colors on the Board match those on the 
-Wheel. You place the amounts you want to bet, on one or more numbers on the board, when it is 
+Wheel. You place the amounts you want to bet, on one or two numbers on the board, when it is 
 your opponent’s turn to spin. If you pick the right number – the number spun – the Banker pays 
 you 10 times the amount you placed on that number.
-For each spin, you cannot bet more than $20,000, nor cover more than 2 numbers on the board. If 
-more than one player puts money on the same number, each should tell the Banker how much he has 
-placed there. After paying off the winners, (if there are any), the Banker puts all the money 
-placed on the board into the Bank. The player spinning CANNOT bet except on Lucky Days
+For each spin, you cannot bet more than $20,000, nor cover more than 2 numbers on the board. 
+After paying off the winners, (if there are any), the Banker puts all the money placed on the 
+board into the Bank. The player spinning CANNOT bet except on Lucky Days.
 
 LUCKY DAYS
 When you LAND IN a LUCKY DAY space, you collect $10,000. The banker gives you two $5,000 bills. 

@@ -11,12 +11,13 @@
     <body>
         <div id="begin">
             <h1 class="title">The Game of Life</h1>
-            <label for="player1">Player 1:</label>
-            <input type="text" name="player1" id="player1"><br><br>
-            <button type="button" id="player1Name">Submit</button>
-            <label for="player2">Player 1:</label>
-            <input type="text" name="player2" id="player2">
-            <button type="button" id="player2Name">Submit</button>            
+            <form class="playerNames">
+                <label for="player1">Player 1:</label>
+                <input type="text" name="player1" id="player1"><br><br>
+                <label for="player2">Player 1:</label>
+                <input type="text" name="player2" id="player2">
+                <input type="submit" value="Submit">
+            </form>            
         </div>
         <div class="spinner" id="dice">
             <img src="images/dice.png" alt="Spinner">
