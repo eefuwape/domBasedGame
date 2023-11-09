@@ -167,7 +167,7 @@ Millionaire Acres you gain the following:
 2. Collect the Lucky Number fees. You spin the wheel and this number becomes your LUCKY Number. 
 From now until the end of the game, every time an opponent spins this number, you collect 
 $10,000 from him or her. This number may still be used for side bets on the wheel. ANY player 
-reaching Millionaire Acres may make bets on the wheel, collect bridge tolls if this is his 
+reaching Millionaire Acres may make bets on the wheel, collect bridge tolls if this is his or her 
 privilege, and use SHARE THE WEALTH (Collect and Exemption) Cards he possesses. An opponent may 
 also give him a Pay card if he chooses.
 

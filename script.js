@@ -9,6 +9,7 @@ class Player {
         this.bankAccount = 2000
         this.loan = 0
         this.stocks = 0
+        this.home = false
         this.car = 1
         this.children = 0
         this.playerPosition = 0
@@ -56,16 +57,18 @@ const spaces = {
     farm : 1
 }
 
-
+const redSpaces = [["Marry", 11], ["Housing", 22], ["Kids", 33], ["Mid-life Crisis", 45]]
 let divEL1 = document.querySelector("begin")
 let divEL2 = document.querySelector("spinner")
 let divEl3 = document.querySelector("gameNotes")
 
-const input = divEL1.getElementsByTagName("input")
+const img = document.querySelector("dice")
 
-const player1 = new Player(input.player1)
+const player1 = new Player(divEL1.player1)
 const player2 = new Player(input.player2)
 
+console.log("Player 1 is " + player1.name +".")
+console.log("Player 2 is " + player2.name + ".")
 
 const getRandom = () => {
     let rando = Math.floor(Math.random() * 10) + 1
@@ -100,5 +103,11 @@ const closeGame = () => {
 
 const buyHomeOrRent = () => {
     const rental = ["Studio Apartment", "2 Bedroom Apartment", "Luxury Apartment"]
-    const buyHome = ["Small Condo", ""]
+    const buyHome = ["3 Bedroom Condo", "4 Bedroom Surbarban Home", "Mansion"]
+
+    if ()
+}
+
+const getPlayerWinnings = (player) => {
+    let winnings = player.bankAccount + 
 }
