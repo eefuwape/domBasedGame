@@ -17,11 +17,11 @@ class Player {
 
 class Cards {
     constructor () {
-        this.career = ["Police", "Mechanic", "Business Owner", "Plumber", "Construction Worker", 
-        "Truck Driver", "Teacher", "Doctor", "Engineer", "Banker", "Lawyer", "Pilot"]
-        this.salary = [35000, 40000, 45000, 44000, 55000, 68000, 74000, 80000, 225000, 230000]
+        this.career = [["Police", "Mechanic", "Business Owner", "Plumber", "Construction Worker", 
+        "Truck Driver"],[ "Teacher", "Doctor", "Engineer", "Scientist", "Lawyer", "Pilot"]]
+        this.salary = [35000, 40000, 45000, 44000, 55000, 68000, 74000, 80000, 100000, 225000, 230000]
         this.stock = [300, 550, 800, 4000, 27000]
-        this.insurance
+        this.insurance = "Auto Insurance"
     }
 }
 
@@ -37,4 +37,8 @@ class spaces {
     }
 }
 
-let getPlayerName = document.querySelector("begin")
+let divEL1 = document.querySelector("begin")
+let divEL2 = document.querySelector("spinner")
+let divEl3 = document.querySelector("gameNotes")
+
+

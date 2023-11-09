@@ -9,15 +9,51 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="begin"></div>
-        <div class="gameBoard" id="gameBoard">
-            <img src="images/gameBoard.png" alt="Game of Life Map">
-        </div> 
-        <div class="gameNotes" id="notifications"></div>
-        <div class="spinner" id="dice"></div>   
-        <div id="player1"></div>
-        <div id="player2"></div> 
-        <div id="banker"></div>   
+        <div id="begin">
+            <h1 class="title">The Game of Life</h1>
+            <label for="player1">Player 1:</label>
+            <input type="text" name="player1" id="player1"><br><br>
+            <button type="button" id="player1Name">Submit</button>
+            <label for="player2">Player 1:</label>
+            <input type="text" name="player2" id="player2">
+            <button type="button" id="player2Name">Submit</button>            
+        </div>
+        <div class="spinner" id="dice">
+            <img src="images/dice.png" alt="Spinner">
+        </div>
+        <div class="gameNotes" id="notifications">
+            <div id="player1">
+                <h3>Player Name</h3>
+                <ul>
+                    <li>Bank Account: </li>
+                    <li>Car: </li>
+                    <li>Position: </li>
+                    <li>Loans: </li>
+                    <li>Stocks: </li>
+                    <li>Cards: </li>
+                </ul>
+            </div>
+            <div id="player2">
+                <h3>Player Name</h3>
+                <ul>
+                    <li>Bank Account: </li>
+                    <li>Car: </li>
+                    <li>Position: </li>
+                    <li>Loans: </li>
+                    <li>Stocks: </li>
+                    <li>Cards: </li>
+                </ul>
+            </div> 
+            <div id="banker">
+                <h3>Banker</h3>
+                <ul>
+                    <li>Bank Funds: </li>
+                    <li>Loans: </li>
+                    <li>Stocks: </li>
+                    <li>Cards: </li>
+                </ul>
+            </div>
+        </div>
         <script src="script.js" async defer></script>
     </body>
 </html>

@@ -154,7 +154,7 @@ have to make a big decision. You must now choose to:
     2. Try to become a MILLIONAIRE TYCOON (If you have little or no money). . .YOU CANNOT DO 
     BOTH.
 3. To go to Millionaire Acres: Spin again and move that many spaces towards Millionaire Acres.
-4. To become a Millionaire Tycoon: Place all your money (your auto if you’re broke) on ONE 
+4. To become a Millionaire Tycoon: Place all your money (your car if you’re broke) on ONE 
 number on the Board. Spin the wheel. If your Number comes up, you have become a Millionaire 
 Tycoon, the WINNER, and the Game is over. If you lose, the Banker takes your money, and you go 
 to the Poor Farm to sit out the rest of the game.

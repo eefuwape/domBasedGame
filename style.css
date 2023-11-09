@@ -1,9 +1,17 @@
-.gameboard {
-    display: flex;
+body {
+    display: grid;
     width: 100%;
     height: 100%;
+    background-image: url("images/gameBoard.png");
+    opacity: 0.6;
 }
-.gameBoard-image {
-    width: 100%;
-    height: 100%;
+
+div.gameNotes {
+    background-color: #fed9ff;
+    width: 600px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
 }
