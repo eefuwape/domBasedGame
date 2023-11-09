@@ -20,8 +20,8 @@ class Cards {
         this.career = [["Police", "Mechanic", "Business Owner", "Plumber", "Construction Worker", 
         "Truck Driver"],[ "Teacher", "Doctor", "Engineer", "Scientist", "Lawyer", "Pilot"]]
         this.salary = [35000, 40000, 45000, 44000, 55000, 68000, 74000, 80000, 100000, 225000, 230000]
-        this.stock = [300, 550, 800, 4000, 27000]
-        this.insurance = "Auto Insurance"
+        this.stock = 10
+        this.insurance = ["Auto Insurance", "Life Insurance", "Health Insurance"]
     }
 }
 
@@ -30,7 +30,7 @@ class spaces {
         this.red = 3
         this.orange = 
         this.green
-        this.retire
+        this.retire = [1, 130]
         this.rich
         this.poor
         this.start

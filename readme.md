@@ -73,7 +73,7 @@ THE MARKET.
 GETTING MARRIED
 You must stop by the church in the MARRY space. IN THIS TURN YOU;
 1. ADD SPOUSE, a pink or blue peg to your car.
-2. COLLECT PRESENTS – you spin wheel again. The amount you collect from each opponent depends 
+2. COLLECT PRESENTS – you spin wheel again. The amount you collect from the opponent depends 
 upon the number spun.
 For 1, 2, 3 – You collect $1,000
 For 4, 5, 6 – You collect $500
@@ -87,8 +87,8 @@ For 1, 2, 3 – You get 1 child
 For 4, 5, 6 – You get 2 children
 For 7, 8, 9 – You get 3 children
 For 10 - You get 4 children.
-2. Each time you add a child you collect $500 from each opponent. If you add more than 1 child, collect 
-$1,000 from each.
+2. Each time you add a child you collect $500 from the opponent. If you add more than 1 child, collect 
+$1,000 from the opponent.
 
 MOVING BACK
 When you are sent back, you count spaces ALONG THE SHORTEST ROUTE.
@@ -103,8 +103,8 @@ your salary doesn’t change. Once a doctor, always a doctor.
 
 REVENGE
 Landing in a GREEN REVENGE SPACE entitles you to one of these choices.
-1. Collect $100,000 from any player you choose, or
-2. Send any player back 10 spaces.
+1. Collect $100,000 from your opponent, or
+2. Send the opponent back 10 spaces.
 Note: If the player you want to take $100,000 from, does not have enough money to pay you, he 
 must go back ten spaces. You cannot change your mind and choose another player to take Revenge 
 on. You cannot take Revenge on a player in Millionaire Acres.
