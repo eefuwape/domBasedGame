@@ -109,6 +109,11 @@ Note: If the player you want to take $100,000 from, does not have enough money t
 must go back ten spaces. You cannot change your mind and choose another player to take Revenge 
 on. You cannot take Revenge on a player in Millionaire Acres.
 
+TOLLBRIDGE
+The first person to cross the bridge owns the rights to the bridge and gets $20000 from 
+the opponent. If the owner becomes DESTITUTE, or has to cross the bridge backwards due to 
+revenge ONLY, the rights to the bridge gets passed to the opponent.
+
 BETTING ON THE WHEEL
 Here’s your chance to place side bets. The numbers and colors on the Board match those on the 
 Wheel. You place the amounts you want to bet, on one or two numbers on the board, when it is 

@@ -44,20 +44,23 @@ const Banker = {
     health: [500, 100, 1500]
 }
 
-const spaces = {
-    red : 4,
-    yellow : 115,
-    green : 21,
-    blue : 9,
-    retire : 1,
-    bridge : 1,
-    lucky : 3,
-    market : 3,
-    millionaire : 1,
-    farm : 1
-}
+// number of spaces on the board
+//     red : 4,
+//     yellow : 115,
+//     green : 21,
+//     blue : 9,
+//     retire : 1,
+//     bridge : 1,
+//     lucky : 3,
+//     market : 3,
+//     millionaire : 1,
+//     farm : 1
+// }
 
-const redSpaces = [["Marry", 11], ["Housing", 22], ["Kids", 33], ["Mid-life Crisis", 45]]
+const redSpaces = [["Marry", 15], ["Housing", 26], ["Kids", 33], ["Mid-life Crisis", 45]]
+const greenSpaces = [[2, 5, 13, 22, 27, 33], [12], [4], ["2nd fork"], []]
+const forkInDRoad = [0, 33, 63]
+const blueSpaces = [[16, 41, 47, 54, 68, 81, 94, 105], [2]]
 let divEL1 = document.querySelector("begin")
 let divEL2 = document.querySelector("spinner")
 let divEl3 = document.querySelector("gameNotes")
@@ -102,12 +105,13 @@ const closeGame = () => {
 }
 
 const buyHomeOrRent = () => {
-    const rental = ["Studio Apartment", "2 Bedroom Apartment", "Luxury Apartment"]
-    const buyHome = ["3 Bedroom Condo", "4 Bedroom Surbarban Home", "Mansion"]
+    const rentalChoice = ["Studio Apartment", "2 Bedroom Apartment", "Luxury Apartment"]
+    const buyHomeOptions = ["3 Bedroom Condo", "4 Bedroom Surbarban Home", "Mansion"]
 
-    if ()
+    const input = document.querySelectorAll("housing")
+    if (input){}
 }
 
 const getPlayerWinnings = (player) => {
-    let winnings = player.bankAccount + 
+    let winnings = player.bankAccount 
 }
