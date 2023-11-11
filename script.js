@@ -49,7 +49,7 @@ const Banker = {
 //     yellow : 115,
 //     green : 21,
 //     blue : 9,
-//     retire : 1,
+//     retire : 121,
 //     bridge : 1,
 //     lucky : 3,
 //     market : 3,
@@ -57,10 +57,11 @@ const Banker = {
 //     farm : 1
 // }
 
-const redSpaces = [["Marry", 15], ["Housing", 26], ["Kids", 33], ["Mid-life Crisis", 45]]
-const greenSpaces = [[2, 5, 13, 22, 27, 33], [12], [4], ["2nd fork"], []]
+const redSpaces = [11, 15, 26]
+const greenSpaces = [[2, 5, 13, 22, 27, 33, 39, 45, 50, 58, 65, 70, 78, 86, 92, 99, 106, 111, 117], [4], [2]]
 const forkInDRoad = [0, 33, 63]
-const blueSpaces = [[16, 41, 47, 54, 68, 81, 94, 105], [2]]
+const blueSpaces = [[16, 41, 47, 54, 68, 81, 94, 105], [2, 6]]
+
 let divEL1 = document.querySelector("begin")
 let divEL2 = document.querySelector("spinner")
 let divEl3 = document.querySelector("gameNotes")
