@@ -2,8 +2,13 @@ body {
     display: grid;
     width: 100%;
     height: 100%;
-    background-image: url("images/gameBoard.png");
+    background-image: url("images/gameBoard-removebg-preview.png");
     opacity: 0.6;
+}
+
+.playersInfo {
+    display: grid;
+    visibility: hidden;
 }
 
 div#begin {
@@ -12,12 +17,13 @@ div#begin {
 }
 
 div.gameNotes {
-    background-color: #fed9ff;
-    width: 600px;
+    background-color: black;
+    width: 75%;
     height: 150px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: center;
     padding: 20px;
+    color: greenyellow;
 }
 

@@ -57,6 +57,11 @@ const Banker = {
 //     farm : 1
 // }
 
+btn = document.querySelector("button")
+btn.addEventListener("click", startGame)
+
+
+
 const redSpaces = [11, 15, 26]
 const greenSpaces = [[2, 5, 13, 22, 27, 33, 39, 45, 50, 58, 65, 70, 78, 86, 92, 99, 106, 111, 117], [4], [2]]
 const forkInDRoad = [0, 33, 63]
@@ -66,10 +71,25 @@ let divEL1 = document.querySelector("begin")
 let divEL2 = document.querySelector("spinner")
 let divEl3 = document.querySelector("gameNotes")
 
-const img = document.querySelector("dice")
+const imgEl = document.querySelector("dice")
 
-const player1 = new Player(divEL1.player1)
-const player2 = new Player(input.player2)
+const startGame = () => {
+    btn.setAttribute("disabled", "")
+    const playerInfo = document.getElementById("playerInfo")
+    playerInfo.style.visibility = "visible"
+    const inputp1 = document.querySelector("input")
+    inputp1.addEventListener("click", getPlayerNames)    
+    playerInfo.style.display = "none"
+}
+
+const getPlayerNames = () => {
+    let player1Name = document.getElementByID("player1Name").value
+    let player2Name = document.getElementByID("player2Name").value
+    const player1 = new Player(player1Name)
+    const player2 = new Player(player2Name)
+}
+
+
 
 console.log("Player 1 is " + player1.name +".")
 console.log("Player 2 is " + player2.name + ".")
@@ -95,7 +115,7 @@ const checkWinner = () => {
     if (player1.tycoon || player2.tycoon) {
         closeGame()
     } else {
-        if (player1.position >= 131 && player2.position >= 131) {
+        if (player1.position >= 121 && player2.position >= 121) {
             closeGame()
         }
     }
@@ -116,3 +136,4 @@ const buyHomeOrRent = () => {
 const getPlayerWinnings = (player) => {
     let winnings = player.bankAccount 
 }
+
