@@ -11,30 +11,23 @@
     <body>
         <div id="begin">
             <h1 class="title">The Game of Life</h1>
-            <p>Enter Players Names</p>
-            <form class="playerNames">
-                <label for="player1">Player 1:</label>
-                <input type="text" name="player1" id="player1"><br><br>
-                <label for="player2">Player 2:</label>
-                <input type="text" name="player2" id="player2"><br><br>
-                <input type="submit" value="Submit">
-            </form>
             <button type="button">BEGIN</button>
+            <div class="playersInfo">
+                <p>Enter players' names below.</p><br>
+                <label for="player1Name">Player 1:</label>
+                <input type="text" name="player1" id="player1Name" required>
+                <label for="player2Name">Player 2:</label>
+                <input type="text" name="player2" id="player2Name" required>
+                <input type="submit" value="Submit">
+            </div>
         </div>
         <div class="spinner">
-            <img id="dice" src="images/dice.png" alt="Spinner">
+            <img id="dice" src="images/dice-removebg-preview.png" alt="Spinner">
             <p><span id="playerName"></span> rolled a <span id="draw"></span>.</p>
         </div>
         <div class="gameNotes" id="notifications">
-            <div id="choices">
-                <h5 class="housing">Select Your Home: </h5>
-                <input class = "housing" type="radio" name="housing" id="rental" value="RENT">
-                <label for="rental">RENT APARTMENT</label><br>
-                <input class = "housing" type="radio" name="housing" id="buy" value="RENT">
-                <label for="buy">BUY HOME</label><br>
-                
+            <div id="choices">                
             </div>
-            <button type="button">QUIT GAME</button>
         </div>
         <div class="gameStats">
             <div id="player1">
@@ -68,6 +61,9 @@
                     <li>Cards: </li>
                 </ul>
             </div>
+        </div>
+        <div class="footer">
+            <button type="button">QUIT GAME</button>
         </div>
         <script src="script.js" async defer></script>
     </body>
