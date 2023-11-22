@@ -14,6 +14,9 @@ class Player {
         this.children = 0
         this.playerPosition = 0
         this.tycoon = false
+        this.lifeInsurance = 0
+        this.autoInsurance = 0
+        this.healthInsurance = 0
     }
 }
 
@@ -101,7 +104,17 @@ const checkWinner = () => {
 }
 
 const closeGame = () => {
-    let p = "The winner is " + winner
+    let winner 
+    if (player1.tycoon === true) {
+        winner = "player 1"
+    }
+    else if (player2.tycoon === true) {
+        winner = "player 2"
+    }
+    else if (player1.bankAccount > player2.bankAccount) {
+        winner = "player 1"
+    }
+    return "The winner is " + winner + "!"
 }
 
 const buyHomeOrRent = () => {
@@ -112,6 +125,31 @@ const buyHomeOrRent = () => {
     if (input){}
 }
 
-const getPlayerWinnings = (player) => {
-    let winnings = player.bankAccount 
+const getChildMoney (player) => {
+    let money4Children = player.children * 20000
+    return player.bankAccount += money4Children
 }
+
+const getInsurance (player) => {
+    let money4Insurance
+    if (player.lifeInsurance === 1) {
+        money4Insurance = 300000
+    }
+    else {
+        money4Insurance = 0
+    }
+    return player.bankAccount += money4Insurance
+}
+
+const payBackDebtRetire (player) => {
+    let playerDebt
+    if (player.loan > 0) {
+        playerDebt = 25000 * player.loan
+    }
+    else {
+        playerDebt = 0
+    }
+    return player.bankAccount -= playerDebt
+}
+
+

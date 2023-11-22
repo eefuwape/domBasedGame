@@ -112,7 +112,8 @@ on. You cannot take Revenge on a player in Millionaire Acres.
 TOLLBRIDGE
 The first person to cross the bridge owns the rights to the bridge and gets $20000 from 
 the opponent. If the owner becomes DESTITUTE, or has to cross the bridge backwards due to 
-revenge ONLY, the rights to the bridge gets passed to the opponent.
+revenge ONLY, the rights to the bridge gets passed to the opponent if the oponent has
+already crossed the bridge.
 
 BETTING ON THE WHEEL
 Here’s your chance to place side bets. The numbers and colors on the Board match those on the 
