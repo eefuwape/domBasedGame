@@ -63,6 +63,7 @@ const Banker = {
 btn = document.querySelector("button")
 btn.addEventListener("click", startGame)
 
+let winner
 
 
 const redSpaces = [11, 15, 26]
@@ -77,12 +78,10 @@ let divEl3 = document.querySelector("gameNotes")
 const imgEl = document.querySelector("dice")
 
 const startGame = () => {
-    btn.setAttribute("disabled", "")
     const playerInfo = document.getElementById("playerInfo")
-    playerInfo.style.visibility = "visible"
     const inputp1 = document.querySelector("input")
-    inputp1.addEventListener("click", getPlayerNames)    
-    playerInfo.style.display = "none"
+    inputp1.addEventListener("click", getPlayerNames) 
+    
 }
 
 const getPlayerNames = () => {
@@ -92,14 +91,12 @@ const getPlayerNames = () => {
     const player2 = new Player(player2Name)
 }
 
-
-
 console.log("Player 1 is " + player1.name +".")
 console.log("Player 2 is " + player2.name + ".")
 
 const getRandom = () => {
     let rando = Math.floor(Math.random() * 10) + 1
-    return rando
+    return "You rolled a " + rando + "."
 }
 
 const getNoDegreeJobs = () => {
@@ -116,15 +113,33 @@ getDegreeJob = () => {
 
 const checkWinner = () => {
     if (player1.tycoon || player2.tycoon) {
-        closeGame()
+        closeGame(player1, player2)
     } else {
         if (player1.position >= 121 && player2.position >= 121) {
-            closeGame()
+            closeGame(player1, player2)
         }
     }
 }
 
-const closeGame = () => {
+const tryTycoon = (player) {
+    if (player.playerPosition >= 121) {
+        console.log("Select a number between 1 and 10")
+        let tycoonInput = querySelector("#tycoonInput")
+        let diceRoll = getRandom()
+        if (diceRoll === tycoonInput) {
+            console.log("You are a Tycoon! You have won the game")
+            return 
+        }
+    }
+}
+
+const getPlayerPosition = (player) => {
+    let position
+    position += getRandom()
+    return player.playerPosition = position
+}
+
+const closeGame = (player1, player2) => {
     let winner 
     if (player1.tycoon === true) {
         winner = "player 1"
@@ -135,17 +150,27 @@ const closeGame = () => {
     else if (player1.bankAccount > player2.bankAccount) {
         winner = "player 1"
     }
+    else if (player2.bankAccount > player1.bankAccount) {
+        winner = "player 2"
+    }
     return "The winner is " + winner + "!"
 }
 
-const buyHomeOrRent = () => {
-    const rentalChoice = ["Studio Apartment", "2 Bedroom Apartment", "Luxury Apartment"]
-    const buyHomeOptions = ["3 Bedroom Condo", "4 Bedroom Surbarban Home", "Mansion"]
-
-    const input = document.querySelectorAll("housing")
-    if (input){}
+const getPlayerWinnings = (player) => {
+    let winnings = 0
+    if (player.stocks >= 1) {
+        winnings += (50000 * player.stocks)
+    }
+    if (player.children >= 1) {
+        winnings += (10000 * player.children)
+    }
+    if (player.lifeInsurance === 1) {
+        winnings += 300000
+    }
+    player.bankAccount += winnings
+    return player.bankAccount
 }
 
-const getPlayerWinnings = (player) => {
-    let winnings = player.bankAccount 
+const quitGame = () => {
+    console.log("The Game has ended! Close window.")
 }

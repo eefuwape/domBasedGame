@@ -2,13 +2,11 @@ body {
     display: grid;
     width: 100%;
     height: 100%;
-    background-image: url("images/gameBoard.png");
-    opacity: 0.6;
+    background-color: black;
 }
 
 .playersInfo {
     display: grid;
-    visibility: hidden;
 }
 
 div#begin {
@@ -17,7 +15,6 @@ div#begin {
 }
 
 div.gameNotes {
-    background-color: #fed9ff;
     width: 600px;
     height: 150px;
     overflow-x: hidden;
@@ -27,3 +24,9 @@ div.gameNotes {
     color: greenyellow;
 }
 
+div.gameStats {
+    display: flex;
+    color: greenyellow;
+    width: 200px;
+    height: 200px
+}
